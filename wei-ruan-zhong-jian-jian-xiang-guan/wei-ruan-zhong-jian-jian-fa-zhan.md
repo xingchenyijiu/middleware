@@ -1,0 +1,562 @@
+
+
+@font-face{
+
+ font-family:"Times New Roman";
+
+ }
+
+ 
+
+ @font-face{
+
+ font-family:"宋体";
+
+ }
+
+ 
+
+ @font-face{
+
+ font-family:"Calibri";
+
+ }
+
+ 
+
+ @font-face{
+
+ font-family:"Adobe 繁黑體 Std B";
+
+ }
+
+ 
+
+ @font-face{
+
+ font-family:"Helvetica";
+
+ }
+
+ 
+
+ p.MsoNormal{
+
+ mso-style-name:正文;
+
+ mso-style-parent:"";
+
+ margin:0pt;
+
+ margin-bottom:.0001pt;
+
+ mso-pagination:none;
+
+ text-align:justify;
+
+ text-justify:inter-ideograph;
+
+ font-family:Calibri;
+
+ mso-fareast-font-family:'Adobe 繁黑體 Std B';
+
+ mso-bidi-font-family:'Times New Roman';
+
+ font-size:20.0000pt;
+
+ mso-font-kerning:10.5000pt;
+
+ }
+
+ 
+
+ h2{
+
+ mso-style-name:"标题 2";
+
+ mso-style-noshow:yes;
+
+ mso-style-next:正文;
+
+ margin-top:5.0000pt;
+
+ margin-bottom:5.0000pt;
+
+ mso-margin-top-alt:auto;
+
+ mso-margin-bottom-alt:auto;
+
+ mso-pagination:none;
+
+ text-align:left;
+
+ font-family:宋体;
+
+ font-weight:bold;
+
+ font-size:18.0000pt;
+
+ }
+
+ 
+
+ span.10{
+
+ font-family:Calibri;
+
+ }
+
+ 
+
+ span.15{
+
+ font-family:Calibri;
+
+ color:rgb\(0,0,255\);
+
+ text-decoration:underline;
+
+ text-underline:single;
+
+ }
+
+ 
+
+ span.16{
+
+ font-family:Calibri;
+
+ font-weight:bold;
+
+ }
+
+ 
+
+ p.p{
+
+ mso-style-name:"普通\\(网站\\)";
+
+ margin-top:5.0000pt;
+
+ margin-right:0.0000pt;
+
+ margin-bottom:5.0000pt;
+
+ margin-left:0.0000pt;
+
+ mso-margin-top-alt:auto;
+
+ mso-margin-bottom-alt:auto;
+
+ mso-pagination:none;
+
+ text-align:left;
+
+ font-family:Calibri;
+
+ mso-fareast-font-family:'Adobe 繁黑體 Std B';
+
+ mso-bidi-font-family:'Times New Roman';
+
+ font-size:12.0000pt;
+
+ }
+
+ 
+
+ span.msoIns{
+
+ mso-style-type:export-only;
+
+ mso-style-name:"";
+
+ text-decoration:underline;
+
+ text-underline:single;
+
+ color:blue;
+
+ }
+
+ 
+
+ span.msoDel{
+
+ mso-style-type:export-only;
+
+ mso-style-name:"";
+
+ text-decoration:line-through;
+
+ color:red;
+
+ }
+
+ @page{mso-page-border-surround-header:no;
+
+ mso-page-border-surround-footer:no;}@page Section0{
+
+ margin-top:72.0000pt;
+
+ margin-bottom:72.0000pt;
+
+ margin-left:90.0000pt;
+
+ margin-right:90.0000pt;
+
+ size:595.3000pt 841.9000pt;
+
+ layout-grid:15.6000pt;
+
+ }
+
+ div.Section0{page:Section0;}
+
+
+
+@font-face{ font-family:"Times New Roman"; } @font-face{ font-family:"宋体"; } @font-face{ font-family:"Calibri"; } @font-face{ font-family:"Adobe 繁黑體 Std B"; } @font-face{ font-family:"Helvetica"; } p.MsoNormal{ mso-style-name:正文; mso-style-parent:""; margin:0pt; margin-bottom:.0001pt; mso-pagination:none; text-align:justify; text-justify:inter-ideograph; font-family:Calibri; mso-fareast-font-family:'Adobe 繁黑體 Std B'; mso-bidi-font-family:'Times New Roman'; font-size:20.0000pt; mso-font-kerning:10.5000pt; } h2{ mso-style-name:"标题 2"; mso-style-noshow:yes; mso-style-next:正文; margin-top:5.0000pt; margin-bottom:5.0000pt; mso-margin-top-alt:auto; mso-margin-bottom-alt:auto; mso-pagination:none; text-align:left; font-family:宋体; font-weight:bold; font-size:18.0000pt; } span.10{ font-family:Calibri; } span.15{ font-family:Calibri; color:rgb\(0,0,255\); text-decoration:underline; text-underline:single; } p.p{ mso-style-name:"普通\\(网站\\)"; margin-top:5.0000pt; margin-right:0.0000pt; margin-bottom:5.0000pt; margin-left:0.0000pt; mso-margin-top-alt:auto; mso-margin-bottom-alt:auto; mso-pagination:none; text-align:left; font-family:Calibri; mso-fareast-font-family:'Adobe 繁黑體 Std B'; mso-bidi-font-family:'Times New Roman'; font-size:12.0000pt; } span.msoIns{ mso-style-type:export-only; mso-style-name:""; text-decoration:underline; text-underline:single; color:blue; } span.msoDel{ mso-style-type:export-only; mso-style-name:""; text-decoration:line-through; color:red; } @page{mso-page-border-surround-header:no; mso-page-border-surround-footer:no;}@page Section0{ margin-top:72.0000pt; margin-bottom:72.0000pt; margin-left:90.0000pt; margin-right:90.0000pt; size:595.3000pt 841.9000pt; layout-grid:15.6000pt; } div.Section0{page:Section0;}
+
+
+
+微
+
+
+
+软中间件相关：
+
+
+
+
+
+
+
+中间件是指网络环境下处于操作系统、数据库等系统软件和应用软件之间的一种起连接作用的分布式软件，微软作为当前windows系统的开发者，他们也定义开发了很多中间件。
+
+
+
+.net
+
+这一平台建立在XML和因特网标准协议的基础上，包含了.NET的基础结构和基础工具，为开发新型的互动协作软件提供了一个先进的体系结构模型。比较著名的NET系列产品和服务有MSN.NET、OFFICE.NET、Visual Studio.NET等。 由Windows.NET ，.NET Framework ， .NET企业服务器， 模块构建服务， Orchestration Visual Studio.NET 组成。
+
+
+
+.net具有四大特征：软件变服务: 最终的软件应用是以Web服务的形式出现并在Internet发布的 基于XML的共同语言: XML作为一种应用间无缝接合的手段，用于多种应用之间的数据采集与合并，用于不同应用之间的互操作和协同工作。 融合多种设备和平台: 谋求与各种Internet接入设备和平台的一体化 新一代的人机界面: 要体现在“智能与互动”两个方面。 自然语音、视觉、手写等多种模式的输入和表现方法 基于XML的可编辑复合信息架构——通用画布 个性化的信息代理服务 使机器能够更好地进行自动处理的智能标记等技术。 NETFramework: 就是微软Web Services 引擎有许多程序设计师和使用者，非常渴望有一个完善而且透明清楚的基础架构，来建立WebServices（因特网服务）。.NETFramework 就是为了这个需求，而提供的基础架构。
+
+
+
+.NETFramework 提供了应用程序模型及关键技术，让开发人员容易以原有的技术来产生、布署，并可以继续发展具有高安全、高稳定，并具高延展的Web Services。对于.NET Framework 而言，所有的组件都可以成为Web Services，Web Services 只不过是另一种型态的组件罢了。微软将COM 的优点整合进来，它可以不用像COM 那么严谨的来栓锁两个对象，.NET Framework 以松散的方式来栓锁Web Services 这种型态的组件。这样的结果让开发人员非常容易的发展出强而有力的Web 服务组件，提高了整体的安全及可靠性，并且大大的增加系统的延展性。
+
+
+
+.NET Framework: 由三个部分组成
+
+
+
+.NET Framework 的目的就是要让建立Web Services 以及因特网应用程序的工作变的简单，.NET Framework 包括了三大部分：第一个部分是Common Language Runtime（CLR，所有.NET 程序语言公用的执行时期组件），第二部分是共享对象类别库（提供所有.NET 程序语言所需要的基本对象），第三个部分是重新以组件的方式写成的ASP.NET（旧版本则是以asp.dll提供ASP 网页所需要的对象）。
+
+
+
+基本上安装了之后对机器不会有很大的影响
+
+
+
+NET Framework 是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件
+
+
+
+NET的运行环境，类似用运行时间库的东西，要运行.NET的计算机必须安装了这个东西。具体的说是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件。.NET Framework 旨在实现下列目标：
+
+
+
+提供一个一致的面向对象的编程环境，而无论对象代码是在本地存储和执行，还是在本地执行但在 Internet 上分布，或者是在远程执行的。提供一个将软件部署和版本控制冲突最小化的代码执行环境提供一个可提高代码（包括由未知的或不完全受信任的第三方创建的代码）执行安全性的代码执行环境 提供一个可消除脚本环境或解释环境的性能问题的代码执行环境。
+
+
+
+使开发人员的经验在面对类型大不相同的应用程序（如基于 Windows 的应用程序和基于 Web 的应用程序）时保持一致。按照工业标准生成所有通信，以确保基于 .NET Framework 的代码可与任何其他代码集成。
+
+
+
+.NET Framework 具有两个主要组件：
+
+
+
+公共语言运行库和 .NET Framework 类库。
+
+
+
+公共语言运行库
+
+
+
+是 .NET Framework 的基础。您可以将运行库看作一个在执行时管理代码的代理，它提供内存管理、线程管理和远程处理等核心服务，并且还强制实施严格的类型安全以及可提高安全性和可靠性的其他形式的代码准确性。事实上，代码管理的概念是运行库的基本原则。以运行库为目标的代码称为托管代码，而不以运行库为目标的代码称为非托管代码。.NET Framework 的另一个主要组件是类库，它是一个综合性的面向对象可重用类型集合，您可以使用它开发多种应用程序，这些应用程序包括传统的命令行或图形用户界面 \(GUI\) 应用程序，也包括基于 ASP.NET 所提供的最新创新的应用程序（如 Web 窗体和 XML Web services）。
+
+
+
+.NET Framework 可由非托管组件承载，这些组件将公共语言运行库加载到它们的进程中并启动托管代码的执行，从而创建一个可以同时利用托管和非托管功能的软件环境。.NET Framework 不但提供若干个运行库宿主，而且还支持第三方运行库宿主的开发。
+
+
+
+例如，ASP.NET 承载运行库以为托管代码提供可伸缩的服务器端环境。ASP.NET 直接使用运行库以启用 ASP.NET 应用程序和 XML Web services（本主题稍后将对这两者进行讨论）。
+
+
+
+Internet Explorer 是承载运行库（以 MIME 类型扩展的形式）的非托管应用程序的一个示例。使用 Internet Explorer 承载运行库使您能够在 HTML 文档中嵌入托管组件或 Windows 窗体控件。以这种方式承载运行库使得托管移动代码（类似于 Microsoft® ActiveX® 控件）成为可能，不过它需要只有托管代码才能提供的重大改进（如不完全受信任的执行和独立的文件存储）。
+
+
+
+COM,DCOM,COM+:
+
+COM/COM+/DCOM详细的解释，都是什么功能？\_百度知道
+
+
+
+COM是组件对象模型,是实现3/N层应用的基础,它的目的就是组件化,应用程序分层.DCOM是分布式的COM,也就说可以远程的创建,最初它利用远程自动化来实现,用注册VBR的方法来配置客户端,来适应DCOM服务器. COM+现在的概念不很清楚,因为它是一个扩展集,MS现在的MTS取代了远程自动化这种原始的功能很弱的方法后,他们似乎已经都是一个集合体. 何谓Mts？ MTS（Microsoft Transaction Server）是微软为其Windows NT操作系统推出的一个中间件产品，由于它具有强大的分布事务支持、安全管理、资源管理和多线程并发控制等特性，使其成为在Windows平台上开发大型数据库应用系统的首选产品。由于MTS屏蔽了底层实现的复杂性，极大地简化了这类应用的开发，程序员可以将精力集中在业务逻辑上，因而有效地提高了软件的开发效率. 组件对象模型（COM Componet Object Model），是微软公司为了计算机工业的软件生产更加符合人类的行为方式开发的一种新的软件开发技术。在COM构架下，人们可以开发出各种各样的功能专一的组件，然后将它们按照需要组合起来，构成复杂的应用系统。由此带来的好处是多方面的：可以将系统中的组件用新的替换掉，以便随时进行系统的升级和定制；可以在多个应用系统中重复利用同一个组件；可以方便的将应用系统扩展到网络环境下；COM与语言，平台无关的特性使所有的程序员均可充分发挥自己的才智与专长编写组件模块。
+
+
+
+COM是开发软件组件的一种方法。组件实际上是一些小的二进制可执行程序，它们可以给应用程序，操作系统以及其他组件提供服务。开发自定义的COM组件就如同开发动态的，面向对象的API（应用程序调用系统功能的接口）。多个COM对象可以连接起来形成应用程序或组件系统。并且组件可以在运行时刻，在不被重新链接或编译应用程序的情况下被卸下或替换掉。Microsoft的许多技术，如ActiveX（根据微软权威的软件开发指南MSDN（Microsoft Developer Network）的定义，ActiveX插件以前也叫做OLE控件或OCX控件，它是一些软件组件或对象，可以将其插入到WEB网页或其它应用程序中）, DirectX（DirectX并不是一个单纯的图形API，它是由微软公司开发的用途广泛的API，它包含有Direct Graphics\(Direct 3D+Direct Draw\)、Direct Input、Direct Play、Direct Sound、Direct Show、Direct Setup、Direct Media Objects等多个组件，它提供了一整套的多媒体接口方案。只是其在3D图形方面的优秀表现，让它的其它方面显得暗淡无光。DirectX开发之初是为了弥补Windows3.1系统对图形、声音处理能力的不足，而今已发展成为对整个多媒体系统的各个方面都有决定性影响的接口）以及OLE（OLE是指与对象链接和嵌入有关的技术，包括容器、服务器、就地编辑、拖放和彩单合并等。在应用程序之间共享的一大块数据称为一个OLE对象，能够包含OLE对象的应用程序称为OLE容器，而允许自己的数据被包含到其他应用程序中的程序称为OLE服务器）等都是基于COM而建立起来的。并且Microsoft的开发人员也大量使用COM组件来定制他们的应用程序及操作系统。
+
+
+
+COM所含的概念并不止是在MicrosoftWindows操作系统下才有效。COM并不是一个大的API\(用标准的定义来讲，API就是Windows的32位应用程序编程接口，是一系列很复杂的函数，消息和结构，它使编程人员可以用不同类型的编程语言编制出的运在Windows和Windows NT操作系统上的应用程序。\)，它实际上象结构化编程面向对象编程方法那样，也是一种编程方法。在任何一种操作系统中，开发人员均可以遵循“COM方法”。 一个应用程序通常是由单个的二进制文件组成的。当编译器生成应用程序之后，在对下一个版本重新编译并发行新生成的版本之前，应用程序一般不会发生任何变化。操作系统，硬件及客户需求的改变都必须等到整个应用程序被重新生成。 目前这种状况已经发生变化。开发人员开始将单个的应用程序分隔成单独多个独立的部分，也既组件。这种做法的好处是可以随着技术的不断发展而用新的组件取代以有的组件。此时的应用程序可以随新组件不断取代旧的组件而渐趋完善。而且利用已有的组件，用户还可以快速的建立全新的应用。 传统的做法是将应用程序分割成文件，模块或类，然后将它们编译并链接成一个单模应用程序。\(静态的链接，文件扩展名为.obj,在进程内实现的\)它与组件建立应用程序的过程（称为组件构架）有很大的不同。一个组件同一个微型应用程序类似，即都是已经编译链接好并可以使用的二进制代码，应用程序就是由多个这样的组件打包而得到的。单模应用程序只有一个二进制代码模块。自定义组件可以在运行时刻同其他的组件连接起来以构成某个应用程序。在需要对应用程序进行修改或改进时，只需要将构成此应用程序的组件中的某个用新的版本替换掉即可（动态的链接，文件扩展名为.dll，是在进程外实现的）。 COM即组件对象模型，是关于如何建立组件以及如何通过组件建立应用程序的一个规范，说明了如何可动态交替更新组件。 COM是一种说明如何建立可动态互变组件的规范，此规范提供了为保证能够互操作，客户和组件应遵循的一些二进制和网络标准。通过这种标准将可以在任意两个组件之间进行通信而不用考虑其所处的操作环境是否相同、使用的开发语言是否一致以及是否运行于同一台计算机。 COM的优点？ 首先：用户一般希望能够定制所用的应用程序，而组件技术从本质上讲就是可被定制的，因而用户可以用更能满足他们需要的某个组件来替换原来的那个。其次，由于组件是相对应用程序独立的部件，我们可以在不同的程序中使用同一个组件而不会产生任何问题，软件的可重用性将大大的得到增强。第三，随着网络带宽及其重要性的提高，分布式网络应用程序毫无疑问的成为软件市场上越来越重要的买点。组件价构可以使得开发这类应用程序的过程得以简化。 DCOM 是微软与其他业界厂商合作提出的一种分布 组件 对象模型，它是COM在分布计算方面的自然延续，为分布在网络不同节点的两个COM 组件 提供了互操作的基础结构。 DCOM 增强COM的分布处理性能，支持多种通信协议，加强 组件 通信的安全保障，把基于认证Internet安全机制同基于Windows NT的C2级安全机制集成在一起。但从系统内部的实现机制而言， DCOM 所采用的技术仍符合图1所示的COM模式。 DCOM 自动建立连接、传输信息并返回来自远程 组件 的答复。 DCOM 在 组件 中的作用有如PC机间通信的PCI和ISA总线，负责各种 组件 之间的信息传递，如果没有 DCOM ，则达不到分布计算环境的要求。微软通过纳入事务处理服务、更容易的编程以及对Unix和其它平台的支持扩充了 DCOM 。 建立 DCOM 时和使用COM建立对象的方式是相同的，只需再加入一个机器名称的参数。如果COM通过Windows API的CoGetClassObject建立对象，只需再输入机器名称的参数即可在远程指定的计算机中建立对象，并且取得指定接口的信息。它构造于RPC的技术之上，并且使用TCP/IP作为网络通信协议。 什么是COM+ ？ COM+并不是COM的简单升级，COM+的底层结构仍然以COM为基础，它几乎包容了COM的所有内容，COM+综合了COM、DCOM和MTS这些技术要素，它把COM组件软件提升到应用层而不再是底层的软件结构，它通过操作系统的各种支持，使组件对象模型建立在应用层上，把所有组件的底层细节留给操作系统，因此，COM+与操作系统的结合更加紧密。 COM+不再局限于COM的组件技术，它更加注重于分布式网络应用的设计和实现。COM+继承了COM几乎全部的优势，同时又避免了COM实现方面的一些不足，把COM、DCOM和MTS的编程模型结合起来，继承了它们的绝大多数特性，在原有的特性上增加了新的功能。 COM+的新的优点? 以下列出COM+的几个主要特性： COM+不仅继承了COM所有的优点，而且还增加了一些服务，比如队列服务、负载平衡、内存数据库、事件服务等。 队列服务对于分布式应用非常有意义，特别是在现在网络速度很慢的情况下，这种机制可以保证应用系统能够可靠地运行。在应用系统包含大量节点但服务器又繁忙的情况下，客户应用程序可以把它们的请求放到队列中，当服务器负载比较轻的时候再处理这些请求； 又如COM+提供了负载平衡服务，它可以实现动态负载平衡，而且COM+应用程序的负载平衡特性并不需要编写代码来支持，客户程序和组件程序都可以按通常的方式实现。获得负载平衡特性并不是用程序设计的方式来实现的，而是通过配置实现分布式应用程序的负载平衡，如上所讲的队列服务，其实也反映了一种负载平衡。 \(1\) 真正的异步通讯。COM+底层提供了队列组件服务，这使客户和组件有可能在不同的时间点上协同工作，COM+应用无须增加代码就可以获得这样的特性。 \(2\) 事件服务。新的事件机制使事件源和事件接收方实现事件功能更加灵活，利用系统服务简化了事件模型，避免了COM可连接对象机制的琐碎细节。 \(3\) 可伸缩性。COM+的可伸缩性来源于多个方面，动态负载平衡以及内存数据库、对象池等系统服务都为COM+的可伸缩性提供了技术基础，COM+的可伸缩性原理上与多层结构的可伸缩特性一致。 \(4\) 可管理和可配置性。管理和配置是应用系统开发完成后的行为，在软件维护成本不断增加的今天，COM+应用将有助于软件厂商和用户减少这方面的投入。 \(5\) 易于开发。COM+应用开发的复杂性和难易程度将决定COM+的成功与否，虽然COM+开发模型比以前的COM组件开发更为简化，但真正提高开发效率仍需要借助于一些优秀的开发工具。 COM+标志着Microsoft的组件技术达到了一个新的高度，它不再局限于一台机器上的桌面系统，它把目标指向了更为广阔的企业内部网，甚至Internet国际互连网络。COM+与多层结构模型以及Windows操作系统为企业应用或Web应用提供了一套完整的解决方案。
+
+
+
+
+
+
+
+����?�ʠ�\*�
+
+
+
+@font-face{ font-family:"Times New Roman"; } @font-face{ font-family:"宋体"; } @font-face{ font-family:"Calibri"; } @font-face{ font-family:"Adobe 繁黑體 Std B"; } @font-face{ font-family:"Helvetica"; } p.MsoNormal{ mso-style-name:正文; mso-style-parent:""; margin:0pt; margin-bottom:.0001pt; mso-pagination:none; text-align:justify; text-justify:inter-ideograph; font-family:Calibri; mso-fareast-font-family:'Adobe 繁黑體 Std B'; mso-bidi-font-family:'Times New Roman'; font-size:20.0000pt; mso-font-kerning:10.5000pt; } h2{ mso-style-name:"标题 2"; mso-style-noshow:yes; mso-style-next:正文; margin-top:5.0000pt; margin-bottom:5.0000pt; mso-margin-top-alt:auto; mso-margin-bottom-alt:auto; mso-pagination:none; text-align:left; font-family:宋体; font-weight:bold; font-size:18.0000pt; } span.10{ font-family:Calibri; } span.15{ font-family:Calibri; color:rgb\(0,0,255\); text-decoration:underline; text-underline:single; } p.p{ mso-style-name:"普通\\(网站\\)"; margin-top:5.0000pt; margin-right:0.0000pt; margin-bottom:5.0000pt; margin-left:0.0000pt; mso-margin-top-alt:auto; mso-margin-bottom-alt:auto; mso-pagination:none; text-align:left; font-family:Calibri; mso-fareast-font-family:'Adobe 繁黑體 Std B'; mso-bidi-font-family:'Times New Roman'; font-size:12.0000pt; } span.msoIns{ mso-style-type:export-only; mso-style-name:""; text-decoration:underline; text-underline:single; color:blue; } span.msoDel{ mso-style-type:export-only; mso-style-name:""; text-decoration:line-through; color:red; } @page{mso-page-border-surround-header:no; mso-page-border-surround-footer:no;}@page Section0{ margin-top:72.0000pt; margin-bottom:72.0000pt; margin-left:90.0000pt; margin-right:90.0000pt; size:595.3000pt 841.9000pt; layout-grid:15.6000pt; } div.Section0{page:Section0;}
+
+
+
+微
+
+
+
+软中间件相关：
+
+
+
+
+
+
+
+中间件是指网络环境下处于操作系统、数据库等系统软件和应用软件之间的一种起连接作用的分布式软件，微软作为当前windows系统的开发者，他们也定义开发了很多中间件。
+
+
+
+.net
+
+这一平台建立在XML和因特网标准协议的基础上，包含了.NET的基础结构和基础工具，为开发新型的互动协作软件提供了一个先进的体系结构模型。比较著名的NET系列产品和服务有MSN.NET、OFFICE.NET、Visual Studio.NET等。 由Windows.NET ，.NET Framework ， .NET企业服务器， 模块构建服务， Orchestration Visual Studio.NET 组成。
+
+
+
+.net具有四大特征：软件变服务: 最终的软件应用是以Web服务的形式出现并在Internet发布的 基于XML的共同语言: XML作为一种应用间无缝接合的手段，用于多种应用之间的数据采集与合并，用于不同应用之间的互操作和协同工作。 融合多种设备和平台: 谋求与各种Internet接入设备和平台的一体化 新一代的人机界面: 要体现在“智能与互动”两个方面。 自然语音、视觉、手写等多种模式的输入和表现方法 基于XML的可编辑复合信息架构——通用画布 个性化的信息代理服务 使机器能够更好地进行自动处理的智能标记等技术。 NETFramework: 就是微软Web Services 引擎有许多程序设计师和使用者，非常渴望有一个完善而且透明清楚的基础架构，来建立WebServices（因特网服务）。.NETFramework 就是为了这个需求，而提供的基础架构。
+
+
+
+.NETFramework 提供了应用程序模型及关键技术，让开发人员容易以原有的技术来产生、布署，并可以继续发展具有高安全、高稳定，并具高延展的Web Services。对于.NET Framework 而言，所有的组件都可以成为Web Services，Web Services 只不过是另一种型态的组件罢了。微软将COM 的优点整合进来，它可以不用像COM 那么严谨的来栓锁两个对象，.NET Framework 以松散的方式来栓锁Web Services 这种型态的组件。这样的结果让开发人员非常容易的发展出强而有力的Web 服务组件，提高了整体的安全及可靠性，并且大大的增加系统的延展性。
+
+
+
+.NET Framework: 由三个部分组成
+
+
+
+.NET Framework 的目的就是要让建立Web Services 以及因特网应用程序的工作变的简单，.NET Framework 包括了三大部分：第一个部分是Common Language Runtime（CLR，所有.NET 程序语言公用的执行时期组件），第二部分是共享对象类别库（提供所有.NET 程序语言所需要的基本对象），第三个部分是重新以组件的方式写成的ASP.NET（旧版本则是以asp.dll提供ASP 网页所需要的对象）。
+
+
+
+基本上安装了之后对机器不会有很大的影响
+
+
+
+NET Framework 是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件
+
+
+
+NET的运行环境，类似用运行时间库的东西，要运行.NET的计算机必须安装了这个东西。具体的说是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件。.NET Framework 旨在实现下列目标：
+
+
+
+提供一个一致的面向对象的编程环境，而无论对象代码是在本地存储和执行，还是在本地执行但在 Internet 上分布，或者是在远程执行的。提供一个将软件部署和版本控制冲突最小化的代码执行环境提供一个可提高代码（包括由未知的或不完全受信任的第三方创建的代码）执行安全性的代码执行环境 提供一个可消除脚本环境或解释环境的性能问题的代码执行环境。
+
+
+
+使开发人员的经验在面对类型大不相同的应用程序（如基于 Windows 的应用程序和基于 Web 的应用程序）时保持一致。按照工业标准生成所有通信，以确保基于 .NET Framework 的代码可与任何其他代码集成。
+
+
+
+.NET Framework 具有两个主要组件：
+
+
+
+公共语言运行库和 .NET Framework 类库。
+
+
+
+公共语言运行库
+
+
+
+是 .NET Framework 的基础。您可以将运行库看作一个在执行时管理代码的代理，它提供内存管理、线程管理和远程处理等核心服务，并且还强制实施严格的类型安全以及可提高安全性和可靠性的其他形式的代码准确性。事实上，代码管理的概念是运行库的基本原则。以运行库为目标的代码称为托管代码，而不以运行库为目标的代码称为非托管代码。.NET Framework 的另一个主要组件是类库，它是一个综合性的面向对象可重用类型集合，您可以使用它开发多种应用程序，这些应用程序包括传统的命令行或图形用户界面 \(GUI\) 应用程序，也包括基于 ASP.NET 所提供的最新创新的应用程序（如 Web 窗体和 XML Web services）。
+
+
+
+.NET Framework 可由非托管组件承载，这些组件将公共语言运行库加载到它们的进程中并启动托管代码的执行，从而创建一个可以同时利用托管和非托管功能的软件环境。.NET Framework 不但提供若干个运行库宿主，而且还支持第三方运行库宿主的开发。
+
+
+
+例如，ASP.NET 承载运行库以为托管代码提供可伸缩的服务器端环境。ASP.NET 直接使用运行库以启用 ASP.NET 应用程序和 XML Web services（本主题稍后将对这两者进行讨论）。
+
+
+
+Internet Explorer 是承载运行库（以 MIME 类型扩展的形式）的非托管应用程序的一个示例。使用 Internet Explorer 承载运行库使您能够在 HTML 文档中嵌入托管组件或 Windows 窗体控件。以这种方式承载运行库使得托管移动代码（类似于 Microsoft® ActiveX® 控件）成为可能，不过它需要只有托管代码才能提供的重大改进（如不完全受信任的执行和独立的文件存储）。
+
+
+
+COM,DCOM,COM+:
+
+COM/COM+/DCOM详细的解释，都是什么功能？\_百度知道
+
+
+
+COM是组件对象模型,是实现3/N层应用的基础,它的目的就是组件化,应用程序分层.DCOM是分布式的COM,也就说可以远程的创建,最初它利用远程自动化来实现,用注册VBR的方法来配置客户端,来适应DCOM服务器. COM+现在的概念不很清楚,因为它是一个扩展集,MS现在的MTS取代了远程自动化这种原始的功能很弱的方法后,他们似乎已经都是一个集合体. 何谓Mts？ MTS（Microsoft Transaction Server）是微软为其Windows NT操作系统推出的一个中间件产品，由于它具有强大的分布事务支持、安全管理、资源管理和多线程并发控制等特性，使其成为在Windows平台上开发大型数据库应用系统的首选产品。由于MTS屏蔽了底层实现的复杂性，极大地简化了这类应用的开发，程序员可以将精力集中在业务逻辑上，因而有效地提高了软件的开发效率. 组件对象模型（COM Componet Object Model），是微软公司为了计算机工业的软件生产更加符合人类的行为方式开发的一种新的软件开发技术。在COM构架下，人们可以开发出各种各样的功能专一的组件，然后将它们按照需要组合起来，构成复杂的应用系统。由此带来的好处是多方面的：可以将系统中的组件用新的替换掉，以便随时进行系统的升级和定制；可以在多个应用系统中重复利用同一个组件；可以方便的将应用系统扩展到网络环境下；COM与语言，平台无关的特性使所有的程序员均可充分发挥自己的才智与专长编写组件模块。
+
+
+
+COM是开发软件组件的一种方法。组件实际上是一些小的二进制可执行程序，它们可以给应用程序，操作系统以及其他组件提供服务。开发自定义的COM组件就如同开发动态的，面向对象的API（应用程序调用系统功能的接口）。多个COM对象可以连接起来形成应用程序或组件系统。并且组件可以在运行时刻，在不被重新链接或编译应用程序的情况下被卸下或替换掉。Microsoft的许多技术，如ActiveX（根据微软权威的软件开发指南MSDN（Microsoft Developer Network）的定义，ActiveX插件以前也叫做OLE控件或OCX控件，它是一些软件组件或对象，可以将其插入到WEB网页或其它应用程序中）, DirectX（DirectX并不是一个单纯的图形API，它是由微软公司开发的用途广泛的API，它包含有Direct Graphics\(Direct 3D+Direct Draw\)、Direct Input、Direct Play、Direct Sound、Direct Show、Direct Setup、Direct Media Objects等多个组件，它提供了一整套的多媒体接口方案。只是其在3D图形方面的优秀表现，让它的其它方面显得暗淡无光。DirectX开发之初是为了弥补Windows3.1系统对图形、声音处理能力的不足，而今已发展成为对整个多媒体系统的各个方面都有决定性影响的接口）以及OLE（OLE是指与对象链接和嵌入有关的技术，包括容器、服务器、就地编辑、拖放和彩单合并等。在应用程序之间共享的一大块数据称为一个OLE对象，能够包含OLE对象的应用程序称为OLE容器，而允许自己的数据被包含到其他应用程序中的程序称为OLE服务器）等都是基于COM而建立起来的。并且Microsoft的开发人员也大量使用COM组件来定制他们的应用程序及操作系统。
+
+
+
+COM所含的概念并不止是在MicrosoftWindows操作系统下才有效。COM并不是一个大的API\(用标准的定义来讲，API就是Windows的32位应用程序编程接口，是一系列很复杂的函数，消息和结构，它使编程人员可以用不同类型的编程语言编制出的运在Windows和Windows NT操作系统上的应用程序。\)，它实际上象结构化编程面向对象编程方法那样，也是一种编程方法。在任何一种操作系统中，开发人员均可以遵循“COM方法”。 一个应用程序通常是由单个的二进制文件组成的。当编译器生成应用程序之后，在对下一个版本重新编译并发行新生成的版本之前，应用程序一般不会发生任何变化。操作系统，硬件及客户需求的改变都必须等到整个应用程序被重新生成。 目前这种状况已经发生变化。开发人员开始将单个的应用程序分隔成单独多个独立的部分，也既组件。这种做法的好处是可以随着技术的不断发展而用新的组件取代以有的组件。此时的应用程序可以随新组件不断取代旧的组件而渐趋完善。而且利用已有的组件，用户还可以快速的建立全新的应用。 传统的做法是将应用程序分割成文件，模块或类，然后将它们编译并链接成一个单模应用程序。\(静态的链接，文件扩展名为.obj,在进程内实现的\)它与组件建立应用程序的过程（称为组件构架）有很大的不同。一个组件同一个微型应用程序类似，即都是已经编译链接好并可以使用的二进制代码，应用程序就是由多个这样的组件打包而得到的。单模应用程序只有一个二进制代码模块。自定义组件可以在运行时刻同其他的组件连接起来以构成某个应用程序。在需要对应用程序进行修改或改进时，只需要将构成此应用程序的组件中的某个用新的版本替换掉即可（动态的链接，文件扩展名为.dll，是在进程外实现的）。 COM即组件对象模型，是关于如何建立组件以及如何通过组件建立应用程序的一个规范，说明了如何可动态交替更新组件。 COM是一种说明如何建立可动态互变组件的规范，此规范提供了为保证能够互操作，客户和组件应遵循的一些二进制和网络标准。通过这种标准将可以在任意两个组件之间进行通信而不用考虑其所处的操作环境是否相同、使用的开发语言是否一致以及是否运行于同一台计算机。 COM的优点？ 首先：用户一般希望能够定制所用的应用程序，而组件技术从本质上讲就是可被定制的，因而用户可以用更能满足他们需要的某个组件来替换原来的那个。其次，由于组件是相对应用程序独立的部件，我们可以在不同的程序中使用同一个组件而不会产生任何问题，软件的可重用性将大大的得到增强。第三，随着网络带宽及其重要性的提高，分布式网络应用程序毫无疑问的成为软件市场上越来越重要的买点。组件价构可以使得开发这类应用程序的过程得以简化。 DCOM 是微软与其他业界厂商合作提出的一种分布 组件 对象模型，它是COM在分布计算方面的自然延续，为分布在网络不同节点的两个COM 组件 提供了互操作的基础结构。 DCOM 增强COM的分布处理性能，支持多种通信协议，加强 组件 通信的安全保障，把基于认证Internet安全机制同基于Windows NT的C2级安全机制集成在一起。但从系统内部的实现机制而言， DCOM 所采用的技术仍符合图1所示的COM模式。 DCOM 自动建立连接、传输信息并返回来自远程 组件 的答复。 DCOM 在 组件 中的作用有如PC机间通信的PCI和ISA总线，负责各种 组件 之间的信息传递，如果没有 DCOM ，则达不到分布计算环境的要求。微软通过纳入事务处理服务、更容易的编程以及对Unix和其它平台的支持扩充了 DCOM 。 建立 DCOM 时和使用COM建立对象的方式是相同的，只需再加入一个机器名称的参数。如果COM通过Windows API的CoGetClassObject建立对象，只需再输入机器名称的参数即可在远程指定的计算机中建立对象，并且取得指定接口的信息。它构造于RPC的技术之上，并且使用TCP/IP作为网络通信协议。 什么是COM+ ？ COM+并不是COM的简单升级，COM+的底层结构仍然以COM为基础，它几乎包容了COM的所有内容，COM+综合了COM、DCOM和MTS这些技术要素，它把COM组件软件提升到应用层而不再是底层的软件结构，它通过操作系统的各种支持，使组件对象模型建立在应用层上，把所有组件的底层细节留给操作系统，因此，COM+与操作系统的结合更加紧密。 COM+不再局限于COM的组件技术，它更加注重于分布式网络应用的设计和实现。COM+继承了COM几乎全部的优势，同时又避免了COM实现方面的一些不足，把COM、DCOM和MTS的编程模型结合起来，继承了它们的绝大多数特性，在原有的特性上增加了新的功能。 COM+的新的优点? 以下列出COM+的几个主要特性： COM+不仅继承了COM所有的优点，而且还增加了一些服务，比如队列服务、负载平衡、内存数据库、事件服务等。 队列服务对于分布式应用非常有意义，特别是在现在网络速度很慢的情况下，这种机制可以保证应用系统能够可靠地运行。在应用系统包含大量节点但服务器又繁忙的情况下，客户应用程序可以把它们的请求放到队列中，当服务器负载比较轻的时候再处理这些请求； 又如COM+提供了负载平衡服务，它可以实现动态负载平衡，而且COM+应用程序的负载平衡特性并不需要编写代码来支持，客户程序和组件程序都可以按通常的方式实现。获得负载平衡特性并不是用程序设计的方式来实现的，而是通过配置实现分布式应用程序的负载平衡，如上所讲的队列服务，其实也反映了一种负载平衡。 \(1\) 真正的异步通讯。COM+底层提供了队列组件服务，这使客户和组件有可能在不同的时间点上协同工作，COM+应用无须增加代码就可以获得这样的特性。 \(2\) 事件服务。新的事件机制使事件源和事件接收方实现事件功能更加灵活，利用系统服务简化了事件模型，避免了COM可连接对象机制的琐碎细节。 \(3\) 可伸缩性。COM+的可伸缩性来源于多个方面，动态负载平衡以及内存数据库、对象池等系统服务都为COM+的可伸缩性提供了技术基础，COM+的可伸缩性原理上与多层结构的可伸缩特性一致。 \(4\) 可管理和可配置性。管理和配置是应用系统开发完成后的行为，在软件维护成本不断增加的今天，COM+应用将有助于软件厂商和用户减少这方面的投入。 \(5\) 易于开发。COM+应用开发的复杂性和难易程度将决定COM+的成功与否，虽然COM+开发模型比以前的COM组件开发更为简化，但真正提高开发效率仍需要借助于一些优秀的开发工具。 COM+标志着Microsoft的组件技术达到了一个新的高度，它不再局限于一台机器上的桌面系统，它把目标指向了更为广阔的企业内部网，甚至Internet国际互连网络。COM+与多层结构模型以及Windows操作系统为企业应用或Web应用提供了一套完整的解决方案。
+
+
+
+
+
+
+
+����?�ʠ�\*�
+
+
+
+@font-face{ font-family:"Times New Roman"; } @font-face{ font-family:"宋体"; } @font-face{ font-family:"Calibri"; } @font-face{ font-family:"Adobe 繁黑體 Std B"; } @font-face{ font-family:"Helvetica"; } p.MsoNormal{ mso-style-name:正文; mso-style-parent:""; margin:0pt; margin-bottom:.0001pt; mso-pagination:none; text-align:justify; text-justify:inter-ideograph; font-family:Calibri; mso-fareast-font-family:'Adobe 繁黑體 Std B'; mso-bidi-font-family:'Times New Roman'; font-size:20.0000pt; mso-font-kerning:10.5000pt; } h2{ mso-style-name:"标题 2"; mso-style-noshow:yes; mso-style-next:正文; margin-top:5.0000pt; margin-bottom:5.0000pt; mso-margin-top-alt:auto; mso-margin-bottom-alt:auto;
+
+
+
+微
+
+
+
+软中间件相关：
+
+
+
+
+
+
+
+中间件是指网络环境下处于操作系统、数据库等系统软件和应用软件之间的一种起连接作用的分布式软件，微软作为当前windows系统的开发者，他们也定义开发了很多中间件。
+
+
+
+.net
+
+这一平台建立在XML和因特网标准协议的基础上，包含了.NET的基础结构和基础工具，为开发新型的互动协作软件提供了一个先进的体系结构模型。比较著名的NET系列产品和服务有MSN.NET、OFFICE.NET、Visual Studio.NET等。 由Windows.NET ，.NET Framework ， .NET企业服务器， 模块构建服务， Orchestration Visual Studio.NET 组成。
+
+
+
+.net具有四大特征：软件变服务: 最终的软件应用是以Web服务的形式出现并在Internet发布的 基于XML的共同语言: XML作为一种应用间无缝接合的手段，用于多种应用之间的数据采集与合并，用于不同应用之间的互操作和协同工作。 融合多种设备和平台: 谋求与各种Internet接入设备和平台的一体化 新一代的人机界面: 要体现在“智能与互动”两个方面。 自然语音、视觉、手写等多种模式的输入和表现方法 基于XML的可编辑复合信息架构——通用画布 个性化的信息代理服务 使机器能够更好地进行自动处理的智能标记等技术。 NETFramework: 就是微软Web Services 引擎有许多程序设计师和使用者，非常渴望有一个完善而且透明清楚的基础架构，来建立WebServices（因特网服务）。.NETFramework 就是为了这个需求，而提供的基础架构。
+
+
+
+.NETFramework 提供了应用程序模型及关键技术，让开发人员容易以原有的技术来产生、布署，并可以继续发展具有高安全、高稳定，并具高延展的Web Services。对于.NET Framework 而言，所有的组件都可以成为Web Services，Web Services 只不过是另一种型态的组件罢了。微软将COM 的优点整合进来，它可以不用像COM 那么严谨的来栓锁两个对象，.NET Framework 以松散的方式来栓锁Web Services 这种型态的组件。这样的结果让开发人员非常容易的发展出强而有力的Web 服务组件，提高了整体的安全及可靠性，并且大大的增加系统的延展性。
+
+
+
+.NET Framework: 由三个部分组成
+
+
+
+.NET Framework 的目的就是要让建立Web Services 以及因特网应用程序的工作变的简单，.NET Framework 包括了三大部分：第一个部分是Common Language Runtime（CLR，所有.NET 程序语言公用的执行时期组件），第二部分是共享对象类别库（提供所有.NET 程序语言所需要的基本对象），第三个部分是重新以组件的方式写成的ASP.NET（旧版本则是以asp.dll提供ASP 网页所需要的对象）。
+
+
+
+基本上安装了之后对机器不会有很大的影响
+
+
+
+NET Framework 是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件
+
+
+
+NET的运行环境，类似用运行时间库的东西，要运行.NET的计算机必须安装了这个东西。具体的说是支持生成和运行下一代应用程序和 XML Web services 的内部 Windows 组件。.NET Framework 旨在实现下列目标：
+
+
+
+提供一个一致的面对对象的编程环境，而无论对象代码是在本地存储和执行，还是在本地执行但在 Internet 上分布，或者是在远程执行的。提供一个将软件部署和版本控制冲突最小化的代码执行环境提供一个可提高代码（包括由未知的或不完全受信任的第三方创建的代码）执行安全性的代码执行环境 提供一个可消除脚本环境或解释环境的性能问题的代码执行环境。
+
+
+
+使开发人员的经验在面对类型大不相同的应用程序（如基于 Windows 的应用程序和基于 Web 的应用程序）时保持一致。按照工业标准生成所有通信，以确保基于 .NET Framework 的代码可与任何其他代码集成。
+
+
+
+.NET Framework 具有两个主要组件：公共语言运行库和 .NET Framework 类库。
+
+
+
+公共语言运行库是 .NET Framework 的基础。您可以将运行库看作一个在执行时管理代码的代理，它提供内存管理、线程管理和远程处理等核心服务，并且还强制实施严格的类型安全以及可提高安全性和可靠性的其他形式的代码准确性。事实上，代码管理的概念是运行库的基本原则。以运行库为目标的代码称为托管代码，而不以运行库为目标的代码称为非托管代码。.NET Framework 的另一个主要组件是类库，它是一个综合性的面对对象可重用类型集合，您可以使用它开发多种应用程序，这些应用程序包括传统的命令行或图形用户界面 \(GUI\) 应用程序，也包括基于 ASP.NET 所提供的最新创新的应用程序（如 Web 窗体和 XML Web services）。
+
+
+
+.NET Framework 可由非托管组件承载，这些组件将公共语言运行库加载到它们的进程中并启动托管代码的执行，从而创建一个可以同时利用托管和非托管功能的软件环境。.NET Framework 不但提供若干个运行库宿主，而且还支持第三方运行库宿主的开发。
+
+
+
+例如，ASP.NET 承载运行库以为托管代码提供可伸缩的服务器端环境。ASP.NET 直接使用运行库以启用 ASP.NET 应用程序和 XML Web services（本主题稍后将对这两者进行讨论）。
+
+
+
+Internet Explorer 是承载运行库（以 MIME 类型扩展的形式）的非托管应用程序的一个示例。使用 Internet Explorer 承载运行库使您能够在 HTML 文档中嵌入托管组件或 Windows 窗体控件。以这种方式承载运行库使得托管移动代码（类似于 Microsoft® ActiveX® 控件）成为可能，不过它需要只有托管代码才能提供的重大改进（如不完全受信任的执行和独立的文件存储）。
+
+
+
+COM,DCOM,COM+:
+
+COM/COM+/DCOM详细的解释，都是什么功能？\_百度知道
+
+
+
+COM是组件对象模型,是实现3/N层应用的基础,它的目的就是组件化,应用程序分层.DCOM是分布式的COM,也就说可以远程的创建,最初它利用远程自动化来实现,用注册VBR的方法来配置客户端,来适应DCOM服务器. COM+现在的概念不很清楚,因为它是一个扩展集,MS现在的MTS取代了远程自动化这种原始的功能很弱的方法后,他们似乎已经都是一个集合体. 何谓Mts？ MTS（Microsoft Transaction Server）是微软为其Windows NT操作系统推出的一个中间件产品，由于它具有强大的分布事务支持、安全管理、资源管理和多线程并发控制等特性，使其成为在Windows平台上开发大型数据库应用系统的首选产品。由于MTS屏蔽了底层实现的复杂性，极大地简化了这类应用的开发，程序员可以将精力集中在业务逻辑上，因而有效地提高了软件的开发效率. 组件对象模型（COM Componet Object Model），是微软公司为了计算机工业的软件生产更加符合人类的行为方式开发的一种新的软件开发技术。在COM构架下，人们可以开发出各种各样的功能专一的组件，然后将它们按照需要组合起来，构成复杂的应用系统。由此带来的好处是多方面的：可以将系统中的组件用新的替换掉，以便随时进行系统的升级和定制；可以在多个应用系统中重复利用同一个组件；可以方便的将应用系统扩展到网络环境下；COM与语言，平台无关的特性使所有的程序员均可充分发挥自己的才智与专长编写组件模块。
+
+
+
+COM是开发软件组件的一种方法。组件实际上是一些小的二进制可执行程序，它们可以给应用程序，操作系统以及其他组件提供服务。开发自定义的COM组件就如同开发动态的，面向对象的API（应用程序调用系统功能的接口）。多个COM对象可以连接起来形成应用程序或组件系统。并且组件可以在运行时刻，在不被重新链接或编译应用程序的情况下被卸下或替换掉。Microsoft的许多技术，如ActiveX（根据微软权威的软件开发指南MSDN（Microsoft Developer Network）的定义，ActiveX插件以前也叫做OLE控件或OCX控件，它是一些软件组件或对象，可以将其插入到WEB网页或其它应用程序中）, DirectX（DirectX并不是一个单纯的图形API，它是由微软公司开发的用途广泛的API，它包含有Direct Graphics\(Direct 3D+Direct Draw\)、Direct Input、Direct Play、Direct Sound、Direct Show、Direct Setup、Direct Media Objects等多个组件，它提供了一整套的多媒体接口方案。只是其在3D图形方面的优秀表现，让它的其它方面显得暗淡无光。DirectX开发之初是为了弥补Windows3.1系统对图形、声音处理能力的不足，而今已发展成为对整个多媒体系统的各个方面都有决定性影响的接口）以及OLE（OLE是指与对象链接和嵌入有关的技术，包括容器、服务器、就地编辑、拖放和彩单合并等。在应用程序之间共享的一大块数据称为一个OLE对象，能够包含OLE对象的应用程序称为OLE容器，而允许自己的数据被包含到其他应用程序中的程序称为OLE服务器）等都是基于COM而建立起来的。并且Microsoft的开发人员也大量使用COM组件来定制他们的应用程序及操作系统。
+
+
+
+COM所含的概念并不止是在MicrosoftWindows操作系统下才有效。COM并不是一个大的API\(用标准的定义来讲，API就是Windows的32位应用程序编程接口，是一系列很复杂的函数，消息和结构，它使编程人员可以用不同类型的编程语言编制出的运在Windows和Windows NT操作系统上的应用程序。\)，它实际上象结构化编程面向对象编程方法那样，也是一种编程方法。在任何一种操作系统中，开发人员均可以遵循“COM方法”。 一个应用程序通常是由单个的二进制文件组成的。当编译器生成应用程序之后，在对下一个版本重新编译并发行新生成的版本之前，应用程序一般不会发生任何变化。操作系统，硬件及客户需求的改变都必须等到整个应用程序被重新生成。 目前这种状况已经发生变化。开发人员开始将单个的应用程序分隔成单独多个独立的部分，也既组件。这种做法的好处是可以随着技术的不断发展而用新的组件取代以有的组件。此时的应用程序可以随新组件不断取代旧的组件而渐趋完善。而且利用已有的组件，用户还可以快速的建立全新的应用。 传统的做法是将应用程序分割成文件，模块或类，然后将它们编译并链接成一个单模应用程序。\(静态的链接，文件扩展名为.obj,在进程内实现的\)它与组件建立应用程序的过程（称为组件构架）有很大的不同。一个组件同一个微型应用程序类似，即都是已经编译链接好并可以使用的二进制代码，应用程序就是由多个这样的组件打包而得到的。单模应用程序只有一个二进制代码模块。自定义组件可以在运行时刻同其他的组件连接起来以构成某个应用程序。在需要对应用程序进行修改或改进时，只需要将构成此应用程序的组件中的某个用新的版本替换掉即可（动态的链接，文件扩展名为.dll，是在进程外实现的）。 COM即组件对象模型，是关于如何建立组件以及如何通过组件建立应用程序的一个规范，说明了如何可动态交替更新组件。 COM是一种说明如何建立可动态互变组件的规范，此规范提供了为保证能够互操作，客户和组件应遵循的一些二进制和网络标准。通过这种标准将可以在任意两个组件之间进行通信而不用考虑其所处的操作环境是否相同、使用的开发语言是否一致以及是否运行于同一台计算机。 COM的优点？ 首先：用户一般希望能够定制所用的应用程序，而组件技术从本质上讲就是可被定制的，因而用户可以用更能满足他们需要的某个组件来替换原来的那个。其次，由于组件是相对应用程序独立的部件，我们可以在不同的程序中使用同一个组件而不会产生任何问题，软件的可重用性将大大的得到增强。第三，随着网络带宽及其重要性的提高，分布式网络应用程序毫无疑问的成为软件市场上越来越重要的买点。组件价构可以使得开发这类应用程序的过程得以简化。
+
+
+
+DCOM 是微软与其他业界厂商合作提出的一种分布 组件 对象模型，它是COM在分布计算方面的自然延续，为分布在网络不同节点的两个COM 组件 提供了互操作的基础结构。 DCOM 增强COM的分布处理性能，支持多种通信协议，加强 组件 通信的安全保障，把基于认证Internet安全机制同基于Windows NT的C2级安全机制集成在一起。但从系统内部的实现机制而言， DCOM 所采用的技术仍符合图1所示的COM模式。 DCOM 自动建立连接、传输信息并返回来自远程 组件 的答复。 DCOM 在 组件 中的作用有如PC机间通信的PCI和ISA总线，负责各种 组件 之间的信息传递，如果没有 DCOM ，则达不到分布计算环境的要求。微软通过纳入事务处理服务、更容易的编程以及对Unix和其它平台的支持扩充了 DCOM 。 建立 DCOM 时和使用COM建立对象的方式是相同的，只需再加入一个机器名称的参数。如果COM通过Windows API的CoGetClassObject建立对象，只需再输入机器名称的参数即可在远程指定的计算机中建立对象，并且取得指定接口的信息。它构造于RPC的技术之上，并且使用TCP/IP作为网络通信协议。
+
+
+
+COM+并不是COM的简单升级，COM+的底层结构仍然以COM为基础，它几乎包容了COM的所有内容，COM+综合了COM、DCOM和MTS这些技术要素，它把COM组件软件提升到应用层而不再是底层的软件结构，它通过操作系统的各种支持，使组件对象模型建立在应用层上，把所有组件的底层细节留给操作系统，因此，COM+与操作系统的结合更加紧密。 COM+不再局限于COM的组件技术，它更加注重于分布式网络应用的设计和实现。COM+继承了COM几乎全部的优势，同时又避免了COM实现方面的一些不足，把COM、DCOM和MTS的编程模型结合起来，继承了它们的绝大多数特性，在原有的特性上增加了新的功能。
+
+
+
+以下列出COM+的几个主要特性： COM+不仅继承了COM所有的优点，而且还增加了一些服务，比如队列服务、负载平衡、内存数据库、事件服务等。 队列服务对于分布式应用非常有意义，特别是在现在网络速度很慢的情况下，这种机制可以保证应用系统能够可靠地运行。在应用系统包含大量节点但服务器又繁忙的情况下，客户应用程序可以把它们的请求放到队列中，当服务器负载比较轻的时候再处理这些请求； 又如COM+提供了负载平衡服务，它可以实现动态负载平衡，而且COM+应用程序的负载平衡特性并不需要编写代码来支持，客户程序和组件程序都可以按通常的方式实现。
+
+
+
+获得负载平衡特性并不是用程序设计的方式来实现的，而是通过配置实现分布式应用程序的负载平衡，如上所讲的队列服务，其实也反映了一种负载平衡。 \(1\) 真正的异步通讯。COM+底层提供了队列组件服务，这使客户和组件有可能在不同的时间点上协同工作，COM+应用无须增加代码就可以获得这样的特性。 \(2\) 事件服务。新的事件机制使事件源和事件接收方实现事件功能更加灵活，利用系统服务简化了事件模型，避免了COM可连接对象机制的琐碎细节。 \(3\) 可伸缩性。COM+的可伸缩性来源于多个方面，动态负载平衡以及内存数据库、对象池等系统服务都为COM+的可伸缩性提供了技术基础，COM+的可伸缩性原理上与多层结构的可伸缩特性一致。 \(4\) 可管理和可配置性。管理和配置是应用系统开发完成后的行为，在软件维护成本不断增加的今天，COM+应用将有助于软件厂商和用户减少这方面的投入。 \(5\) 易于开发。COM+应用开发的复杂性和难易程度将决定COM+的成功与否，虽然COM+开发模型比以前的COM组件开发更为简化，但真正提高开发效率仍需要借助于一些优秀的开发工具。 COM+标志着Microsoft的组件技术达到了一个新的高度，它不再局限于一台机器上的桌面系统，它把目标指向了更为广阔的企业内部网，甚至Internet国际互连网络。COM+与多层结构模型以及Windows操作系统为企业应用或Web应用提供了一套完整的解决方案。
+
